@@ -1,0 +1,393 @@
+body {
+     margin: 0;
+     padding: 0;
+}
+
+.header {
+     position: relative;
+}
+
+.logo {
+     position: absolute;
+     top: 5px;
+     left: 20px;
+     width: 150px;
+     height: 60px;
+}
+
+.titulo {
+     font-family: 'Nunito';
+     color: #1D3A6D;
+}
+
+.fotoIzquierda {
+     position: absolute;
+     margin-left: 700px;
+     border-radius: 15px;
+}
+
+.fotoDerecha {
+     position: absolute;
+     margin-left: 1000px;
+     border-radius: 15px;
+     height: 180px;
+}
+
+.recuadro-azul {
+     background-color: #1D3A6D;
+     color: white;
+     height: 30px;
+     text-align: center;
+     border-radius: 5px;
+     font-family: Arial, sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+}
+
+.recuadro-azul1 {
+     width: 280px;
+     position: absolute;
+     top: 625px;
+     text-align: center;
+}
+
+.recuadro-azul2 {
+     width: 280px;
+     position: absolute;
+     top: 625px;
+}
+
+.recuadro-azul3 {
+     max-width: 550px;
+     margin-top: 10px;
+}
+
+.recuadro-azul4 {
+     width: 280px;
+     position: absolute;
+     top: 1010px;
+     margin-left: 700px;
+}
+
+.recuadro-azul5 {
+     width: 280px;
+     position: absolute;
+     top: 1010px;
+     margin-left: 1000px;
+}
+
+.parrafo-imagen {
+     text-align: justify;
+     font-family: Arial, sans-serif;
+     color: #333;
+}
+
+
+.parrafo-imagen2 {
+     position: absolute;
+     top: 660px;
+     margin-left: 700px;
+     width: 280px;
+}
+
+.parrafo-imagen1 {
+     position: absolute;
+     top: 660px;
+     left: 1000px;
+     width: 280px;
+}
+
+.parrafo-imagen3 {
+     position: relative;
+     margin-top: 10px;
+     left: 100px;
+     width: 550px;
+}
+
+.parrafo-imagen5 {
+     position: relative;
+     top: 40px;
+     left: 1000px;
+     width: 280px;
+}
+
+.parrafo-imagen4 {
+     position: relative;
+     top: 150px;
+     left: 700px;
+     width: 280px;
+}
+
+.linea-separadora {
+     border: none;
+     height: 2px;
+     background-color: grey;
+     margin: 90px 0;
+}
+
+.imagen3 {
+     display: block;
+     margin-left: 100px;
+     width: 550px;
+     height: 300px;
+     border-radius: 15px;
+}
+
+.formulario-container {
+     text-align: right;
+     margin-right: 300px;
+     margin-top: -320px;
+}
+
+.input-pequeno {
+     width: 550px;
+     font-size: 14px;
+     padding: 5px;
+}
+
+.btn-personalizado {
+     background-color: #374172;
+     color: white;
+     border: none;
+}
+
+.navbar {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 86%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 10px 20px;
+     z-index: 10;
+     margin-left: 180px;
+}
+
+.navbar .logo {
+     color: white;
+     font-size: 24px;
+     font-weight: bold;
+     text-decoration: none;
+}
+
+.navbar ul {
+     list-style-type: none;
+     display: flex;
+     margin: 0;
+     padding: 0;
+}
+
+.navbar ul li {
+     margin: 0 15px;
+}
+
+.navbar ul li a {
+     color: white;
+     text-decoration: none;
+     font-size: 16px;
+}
+
+
+.navbar .search {
+     display: flex;
+     align-items: center;
+}
+
+.navbar .search input[type="text"] {
+     padding: 5px;
+     border: none;
+     border-radius: 3px;
+     margin-right: 10px;
+}
+
+.navbar .search button {
+     padding: 5px 10px;
+     border: none;
+     border-radius: 3px;
+     background-color: #0059b3;
+     color: white;
+     cursor: pointer;
+}
+
+
+
+.background-image {
+     width: 100%;
+     height: auto;
+}
+
+.dropdown-menu {
+     background-color: white;
+     color: black !important;
+     border: 5px ;
+     border-radius: 4px;
+     padding: 10px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     min-width: 200px;
+     position: absolute;
+}
+
+.dropdown-item {
+     padding: 10px 18px;
+     font-size: 14px;
+     color: black;
+     display: block;
+     background-color: white;
+}
+.dropdown-item:hover {
+     background-color: #f5f5f5;
+     color: black;
+}
+
+.dropdown-divider {
+     height: 1px;
+     background-color: black;
+     margin: 5px 0;
+}
+
+
+footer {
+     background-color: #003366;
+     color: white;
+     padding: 5px 0;
+     text-align: justify;
+     font-size: 12px
+}
+
+.footer-container {
+     display: flex;
+     flex-wrap: nowrap;
+     justify-content: normal;
+     max-width: 800px;
+     font-size: 12px;
+     margin: 0 auto;
+}
+
+.footer-section {
+     flex: 1 1 250px;
+     margin: 2px;
+     font-size: 12px;
+     margin: 5%;
+}
+
+.footer-section h3 {
+     display: inline-block;
+     margin-bottom: 15px;
+     font-size: 15px;
+
+}
+
+.footer-section ul {
+     list-style: none;
+     padding: 0;
+}
+
+.footer-section ul li {
+     margin: 3px 0;
+}
+
+.footer-section ul li a {
+     color: white;
+     text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+     text-decoration: underline;
+}
+
+.footer-bottom {
+     margin-top: 10px;
+     font-size: 10px;
+     text-align: center;
+}
+
+.footer-logo {
+     text-align: left;
+     margin-left: 100px;
+}
+
+.footer-logo img {
+     width: 100px;
+}
+
+.footer {
+     margin-top: 250px;
+
+}
+
+.body {
+     margin: 0;
+     padding: 0;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+}
+
+
+
+.botonAcceder {
+     background-color: #1D3A6D;
+}
+
+.modal {
+     position: fixed;
+     z-index: 1;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Estilos del contenido del modal */
+.modal-content {
+     background-color: white;
+     margin: 15% auto;
+     padding: 20px;
+     border: 1px solid #888;
+     width: 300px;
+     border-radius: 5px;
+}
+
+.modal.fade {
+     opacity: 0;
+     transition: opacity .15s linear;
+}
+
+.modal.show {
+     display: block;
+     opacity: 1;
+}
+.close {
+     color: #aaa;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+     color: black;
+     text-decoration: none;
+     cursor: pointer;
+}
+
+    .image-container {
+         display: inline-block;
+         overflow: hidden;
+    }
+
+    .image-container img {
+         display: block;
+         transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .image-container:hover img {
+         transform: scale(1.1);
+         /* Incrementa el tamaño de la imagen */
+         box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+         /* Agrega sombra para un mejor efecto */
+    }

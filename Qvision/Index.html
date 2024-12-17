@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+               <meta charset="utf-8">
+               <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+                              rel="stylesheet">
+               <link rel="stylesheet" href="css/Estilos.css">
+</head>
+
+<body>
+               <div class="Index">
+                              <!--Barra de navegación-->
+                              <nav class="navbar">
+                                             <ul>
+                                                            <li><a href="#">Inicio</a></li>
+                                                            <li class="nav-item dropdown">
+                                                                           <a class="nav-link dropdown-toggle" href="#"
+                                                                                          id="navbarDropdown"
+                                                                                          role="button"
+                                                                                          data-toggle="dropdown"
+                                                                                          aria-haspopup="true"
+                                                                                          aria-expanded="false">
+                                                                                          Rutas de formacion
+                                                                           </a>
+                                                                           <div class="dropdown-menu"
+                                                                                          aria-labelledby="navbarDropdown">
+                                                                                          <a class="dropdown-item"
+                                                                                                         href="#">Cientifico
+                                                                                                         de datos</a>
+                                                                                          <a class="dropdown-item"
+                                                                                                         href="#">Rutas
+                                                                                                         de formación en
+                                                                                                         .NET</a>
+                                                                                          <a class="dropdown-item"
+                                                                                                         href="#">Rutas
+                                                                                                         de formación en
+                                                                                                         automatización</a>
+                                                                           </div>
+                                                            </li>
+                                                            <li class="nav-item dropdown">
+                                                                           <a class="nav-link dropdown-toggle" href="#"
+                                                                                          id="navbarDropdown"
+                                                                                          role="button"
+                                                                                          data-toggle="dropdown"
+                                                                                          aria-haspopup="true"
+                                                                                          aria-expanded="false">
+                                                                                          Cursos
+                                                                           </a>
+                                                                           <div class="dropdown-menu"
+                                                                                          aria-labelledby="navbarDropdown">
+                                                                                          <a class="dropdown-item"
+                                                                                                         href="#">Cientifico
+                                                                                                         de datos</a>
+                                                                                          <a class="dropdown-item"
+                                                                                                         href="#">Rutas
+                                                                                                         de formación en
+                                                                                                         .NET</a>
+                                                                                          <a class="dropdown-item"
+                                                                                                         href="#">Rutas
+                                                                                                         de formación en
+                                                                                                         automatización</a>
+                                                                                          <div class="dropdown-divider">
+                                                                                          </div>
+                                                                           </div>
+                                                            </li>
+                                                            <li><a href="#">Quiénes Somos</a></li>
+                                             </ul>
+                                             <div class="iniciar sesion" style="margin-right: -40%;">
+                                                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal"
+                                                       style="color:white; background: none; border: none;">
+                                                       Iniciar sesión
+                                                  </button>           
+                                             </div>
+                                             <div class="search">
+                                                            <button style="background-color:navy;">🔍</button>
+                                             </div>
+                              </nav>
+
+                              <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+                                   <div class="modal-dialog">
+                                        <div class="modal-content">
+                                             <div class="modal-header">
+                                                  <h5 class="modal-title" id="loginModalLabel">Iniciar Sesión</h5>
+                                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                             </div>
+                                             <div class="modal-body">
+                                                  <!-- Formulario de Inicio de Sesión -->
+                                                  <form>
+                                                       <div class="mb-3">
+                                                            <input type="email" id="idEmail" class="form-control" placeholder="Correo electrónico" />
+                                                       </div>
+                                                       <div class="mb-3">
+                                                            <input type="password" id="loginPassword" class="form-control" placeholder="Contraseña" />
+                                                       </div>
+                                                       <button type="submit" class="btn btn-primary w-100">Acceder</button>
+                                                  </form>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                              <img src="./Imagenes/Header.jpeg" alt="Imagen de fondo" class="background-image">
+                              <img src="./Imagenes/logo_actualizado.png" alt="Logo" class="logo">
+
+                              <h1 style="margin-left: 50px" ; margin-bottom="20px" class="titulo">Novedades</h1>
+
+                              <div class="contenedor-imagen3" style="position: relative;">
+                                             <img src="./Imagenes/imagen3.jpg" alt="imagen3" class="imagen3">
+                                             <div class="recuadro-azul recuadro-azul3" style="margin-left:100px">
+                                                            <p>Bienvenidos a IzzyAcademy</p>
+                                             </div>
+                                             <p class="parrafo-imagen parrafo-imagen3">Nos complace darte la bienvenida a este innovador espacio educativo donde la excelencia academica se encuentra con la comodidad y la flexibilidad. Aquí tu aprendizaje es nuestra prioridad, y nuestro campus virtual esta diseñado para ofrecerte una experiencia educativa enriquecedora desde la comodidad de tu hogar.</p>
+                              </div>
+
+                              <div>
+                                             <img src="./Imagenes/imagen2.jpg" alt="fotoIzquierda" class="fotoIzquierda"
+                                                            style="top:440px">
+                                             <div class="recuadro-azul recuadro-azul2" style="margin-left:700px">
+                                                            <p>Generacion de comunidad</p>
+                                             </div>
+                                             <p class="parrafo-imagen parrafo-imagen2">Nos complace generar vinculos sociales entre personas que comparten un mismo interes, incentivar la construcción de un sentido de pertenencia y colaboración dentro de la comunidad.</p>
+                              </div>
+
+                              <div>
+                                             <img src="./Imagenes/imagen1.jpg" alt="fotoDerecha" class="fotoDerecha"
+                                                            style="top: 440px">
+                                             <div class="recuadro-azul recuadro-azul1" style="margin-left:1000px">
+                                                            <p>Transferencia de conocimiento</p>
+                                             </div>
+                                             <p class="parrafo-imagen parrafo-imagen1">Nos apasiona compartir información, habilidades y experiencias con el objetivo de aplicar y aprocechar esta información para el desarrollo de las habilidades.</p>
+                              </div>
+
+                              <div>
+                                             <img src="./Imagenes/imagen4.jpg" alt="fotoIzquierda" class="fotoIzquierda"
+                                                            style="top:820px">
+                                             <div class="recuadro-azul recuadro-azul4">
+                                                            <p>Certificacion</p>
+                                             </div>
+                                             <p class="parrafo-imagen parrafo-imagen4">IzzyAcademy te brinda certificaciones e insgnias digitales para que compartas y avales los conocimientos adquiridos junto a nosotros.</p>
+                              </div>
+
+                              <div>
+                                             <img src="./Imagenes/imagen5.jpg" alt="fotoDerecha" class="fotoDerecha"
+                                                            style="top:820px" ; width="275px">
+                                             <div class="recuadro-azul recuadro-azul5">
+                                                            <p>Apropiación del conocimiento</p>
+                                             </div>
+                                             <p class="parrafo-imagen parrafo-imagen5">Desde IzzyAcademy nos importa que adquieras, comprendas y asimiles el conocimiento, habilidades e ideas que creamos para ti y para la comunidad</p>
+                              </div>
+
+                              <div>
+                                             <hr class="linea-separadora">
+                              </div>
+
+                              <h1 style="text-align: center; margin: 0; position: relative; top: -80px; color: #1D3A6D">
+                                             Aliados</h1>
+
+                              <p style="text-align: center; margin: 0; position: relative; top: -80px"
+                                             class="parrafo-imagen">Nuestros entrenamientos, procesos formativos y
+                                             certificaciones cuentan con el respaldo de empresas que confian en nosotros
+                              </p>
+                              <div class="image-container">
+                                   <img src="./Imagenes/Certiprof.jpg" width="150" style="margin:5px">
+                              </div>
+                              <div class="image-container">
+
+                              </div>
+                              <div class="image-container">
+
+                              </div>
+                              <div class="image-container">
+                                   <img src="./Imagenes/Arcitura.png" width="150" style="margin:5px">
+                              </div>
+                              <div class="image-container">
+                                   <img src="./Imagenes/Formarte.png" width="150" style="margin:5px">
+                              </div>
+                              <div class="image-container">
+                                   <img src="./Imagenes/Credly.jpg" width="150" style="margin:5px">
+                              </div>
+                              <div class="image-container">
+                                   <img src="./Imagenes/Scrum.jpg" width="150" style="margin:5px">
+                              </div>
+                              <div class="image-container">
+                                   <img src="./Imagenes/intersoftware.jpg" width="150" style="margin:5px">
+                              </div>
+                              <div class="image-container">
+                                   <img src="./Imagenes/brightest.png" width="150" style="margin:5px">
+                              </div>
+                              <div class="image-container">
+                                   <img src="./Imagenes/Sena.png" width="150" style="margin:5px">
+                              </div>
+
+                              <h1 style='text-align:right; margin-right:300px; margin-top:100px; margin-bottom:20px;
+                                             class:titulo'>Registrate</h1>
+
+                              <img src="./Imagenes/callCenter.jpg" width="500"
+                                             style="text-align:left; margin-left:100px">
+
+
+                              <!--REGISTRO-->
+                              <form style="float: right; width: 700px;">
+                                             <div class="form-group">
+                                                            <label for="InputNombre">Nombre</label>
+                                                            <input type="text" class="form-control input-pequeno"
+                                                                           id="idNombre"
+                                                                           aria-describedby="nombreUsuario">
+                                             </div>
+                                             <div class="form-group">
+                                                            <label for="InputApellidos">Apellidos</label>
+                                                            <input type="text" class="form-control input-pequeno"
+                                                                           id="idApellidos"
+                                                                           aria-describedby="apellidoUsuario">
+                                             </div>
+                                             <div class="form-group">
+                                                            <label for="InputCorreo" style="text-align:left">Correo
+                                                                           electronico</label>
+                                                            <input type="email" class="form-control input-pequeno"
+                                                                           id="idCorreo"
+                                                                           aria-describedby="correoUsuario">
+                                             </div>
+                                             <div class="form-group">
+                                                            <label for="InputContraseña">Contraseña</label>
+                                                            <input type="password" class="form-control input-pequeno"
+                                                                           id="exampleInputPassword1">
+                                             </div>
+                                             <div class="form-group">
+                                                            <label for="InputCorreo1">Confirmar contraseña</label>
+                                                            <input type="password" class="form-control input-pequeno"
+                                                                           id="exampleInputPassword2">
+                                             </div>
+                                             <div class="form-group form-check">
+                                                            <label>
+                                                                           <input type="checkbox" id="checkbox1"> Acepto
+                                                                           los términos y condiciones
+                                                            </label><br>
+
+                                                            <label>
+                                                                           <input type="checkbox" id="checkbox2">
+                                                                           Recibir notificaciones por correo
+                                                            </label><br>
+                                             </div>
+                                             <button type="button" id="registrar" class="btn btn-personalizado"
+                                                            style="width:550px;">Registrarse</button>
+                              </form>
+
+                              <!--Footer-->
+
+
+                              <footer class="footer">
+                                             <div class="footer-container">
+                                                            <div class="footer-section"style="margin-left: -25%;">
+                                                                           <h3>Contáctanos</h3>
+                                                                           <ul>
+                                                                                          <li>Email: info@izyacademy.com
+                                                                                          </li>
+                                                                                          <li>Teléfono: +57 300 123 4567
+                                                                                          </li>
+                                                                                          <li><a href="#">Comunícate con
+                                                                                                                        nosotros</a>
+                                                                                          </li>
+                                                                           </ul>
+                                                            </div>
+                                                            <div class="footer-section">
+                                                                           <h3>Categorías de Cursos</h3>
+                                                                           <ul>
+                                                                                          <li><a href="#">Desarrollo</a>
+                                                                                          </li>
+                                                                                          <li><a href="#">Metodología de
+                                                                                                                        Pruebas</a>
+                                                                                          </li>
+                                                                                          <li><a href="#">Pruebas
+                                                                                                                        funcionales</a>
+                                                                                          </li>
+                                                                                          <li><a href="#">devOps</a>
+                                                                                          </li>
+                                                                                          <li><a href="#">Cloud</a></li>
+                                                                                          <li><a href="#">Administración</a>
+                                                                                          </li>
+                                                                           </ul>
+                                                            </div>
+                                                            <div class="footer-section">
+                                                                           <h3>Certificaciones</h3>
+                                                                           <ul>
+                                                                                          <li><a href="#">Scrum
+                                                                                                                        master</a>
+                                                                                          </li>
+                                                                                          <li><a href="#">Scrum Product
+                                                                                                                        Owner</a>
+                                                                                          </li>
+                                                                                          <li><a href="#">Scrum Product
+                                                                                                                        developer</a>
+                                                                                          </li>
+                                                                                          <li><a href="#">Agile
+                                                                                                                        Coach</a>
+                                                                                          </li>
+                                                                                          <li><a href="#">Design
+                                                                                                                        Trading</a>
+                                                                                          </li>
+                                                                                          <li><a href="#">DevOps</a>
+                                                                                          </li>
+                                                                           </ul>
+                                                            </div>
+                                                            <div class="footer-section">
+                                                                 <h3>Q-Vision
+                                                                      Technologies
+                                                                 </h3>
+                                                                 <ul>
+                                                                      <li><a href="#">Desarrollo de software</a>
+                                                                      </li>
+                                                                      <li><a href="#">Aseguramiento de calidad</a>
+                                                                      </li>
+                                                                      <li><a href="#">Automatización de
+                                                                           procesos con RPA
+                                                                      </a>
+                                                                      </li>
+                                                                      <li><a href="#">Talento TI</a>
+                                                                      </li>
+                                                                      <li><a href="#">Gestión inteligente de
+                                                                           Datos
+                                                                 </ul>
+                                                            </div>
+                                                            <div class="footer-section">
+                                                                           <h3>Soporte</h3>
+                                                                           <ul>
+                                                                                          <li><a href="#">Ayuda</a></li>
+                                                                                          <li><a href="#">Preguntas
+                                                                                                                        Frecuentes</a>
+                                                                                          </li>
+                                                                                          <li><a href="#">Política de
+                                                                                                                        Privacidad</a>
+                                                                                          </li>
+                                                                           </ul>
+                                                            </div>
+                                             </div>
+                                             <div class="footer-logo">
+                                                            <img src="./Imagenes/logo.png" alt="Logo IzyAcademy">
+                                             </div>
+                                             <i class="fab fa-facebook-f"></i>
+                                             </button>
+                                             
+                                             <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1">
+                                                  <i class="fab fa-google"></i>
+                                             </button>
+                                             
+                                             <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1">
+                                                  <i class="fab fa-twitter"></i>
+                                             </button>
+                                             
+                                             <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1">
+                                                  <i class="fab fa-github"></i>
+                                             </button>
+                                             </div>
+                                             <div class="footer-bottom">
+                                                            <p>© 2024 IzyAcademy. Todos los derechos reservados.</p>
+                                             </div>
+                              </footer>
+
+               </div>
+               <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+               <script src="js/btnRegistrar.js" defer></script>
+</body>
+
+</html>
